@@ -1,0 +1,19 @@
+package scanner;
+
+import java.util.Scanner;
+import java.lang.Math;
+
+class Selfprogramming2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Double num;
+		Scanner input= new Scanner(System.in);
+		System.out.print("Enter a number: ");
+		num=input.nextDouble();
+		Double square = num*num;
+		System.out.println("Square of "+ num + " is: "+ square);
+		}
+
+	}
